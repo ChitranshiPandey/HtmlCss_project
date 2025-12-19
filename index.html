@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La Vera Pizza | The True Taste of Italy</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   
+  <header>
+    
+    <img src="logo.jpg" alt="logo" class="logo"> 
+    <div class="brand">
+        <h1 >La Vera Pizza</h1>
+        <p>The True Taste of Italy</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Order</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <img src="pizz2.jpg" alt="pizza" class="pizzaimg">
+
+
+  <div class="heading2">
+    <h1 class="signature">Signature Pizza</h1>
+  </div>
+
+ 
+  <section class="section menu">
+    
+    <ul>
+     
+      <li>🍕 Margherita - Fresh basil, mozzarella, tomato sauce</li>
+      <img src="margherita.png" alt="margherita" class="margherita">
+      <button type="submit" class ="my-button">Order Now</button >
+      
+
+      <li>🍕 Pepperoni - Cheesy,savory delight,topped with spicy</li>
+      <img src="pepp-removebg-preview.png" alt="Pepperoni" class="Pepperoni">
+      <button type="submit" class ="my-button">Order Now</button >
+
+
+      <li>🍕 cheese pizza - cheese overload , mozzarella</li>
+      <img src="cheesepizz.png" alt="cheesepizza" class="cheesepizza">
+      <button type="submit" class="my-button">Order Now</button>
+
+    </ul>
+
+  </section>
+
+  <br>
+  <br>
+
+   <section class="cards">
+
+  <h1 class="menu-title">🍕 Our Pizza Menu</h1>
+  <div class="card-container">
+    
+    
+      <div class="pizza-card">
+        <img src="vegiespizz-.png" alt="vegies pizza" />
+          <div class="card-content">
+           <h2>Veggies Pizza</h2>
+          <p>Classic delight with 100% real mozzarella cheese.</p>
+          <span class="price">₹299</span>
+          </div>
+      </div>
+
+      <div class="pizza-card">
+        <img src="pepperonicpizz.png" alt="Pepperonic Pizza" />
+          <div class="card-content">
+           <h2>Pepperonic Pizza</h2>
+          <p>"Bold, Spicy, Perfectly Pepperoni."</p>
+          <span class="price">₹299</span>
+          </div>
+      </div>
+
+
+      <div class="pizza-card">
+        <img src="mushroompizz.png" alt="Mushroom Pizza" />
+          <div class="card-content">
+           <h2>Mushroom Pizza</h2>
+          <p>"Mushroom Magic on Every Slice."</p>
+          <span class="price">₹399</span>
+          </div>
+      </div>
+
+
+
+      <div class="pizza-card">
+        <img src ="tomatocapcicum.png" alt="tomatopizza">
+        <div>
+          <h2>Tomato-Capcicum Pizza </h2>
+          <p>"A Crunch of Capsicum, a Burst of Tomato!"</p>
+          <span class="price">₹199</span>
+        </div>
+
+      </div>
+
+      
+  </div>
+</section>
+<br>
+  
+
+
+
+  <section class="section about">
+    <h3>Our Story</h3>
+    <p>
+      At La Vera Pizza, we bring the spirit of Naples to your plate. Each pizza is hand-crafted,
+      baked in a traditional wood oven, and made with the finest ingredients straight from Italy.
+    </p>
+  </section>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Enter your name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email">
+
+    <label for="message">Message</label>
+    <textarea id="message" rows="4" placeholder="Your message"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+
+
+
+
+ <br>
+<footer>
+    <p>&copy; 2025 La Vera Pizza. All rights reserved.</p>
+</footer>
+
+
+ 
+
+  <script>
+     const form = document.getElementById('contact-form');
+
+  // Add a submit event listener to the form
+  form.addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    // Get form values
+    let name = document.getElementById("Name").value;
+    let lastName = document.getElementById("LastName").value;
+    let email = document.getElementById("E-mail").value;
+    let feedback = document.getElementById("Feedback").value;
+
+    // Log values to the console (you can replace this with sending data to server)
+    console.log(name, lastName, email, feedback);
+    })
+  </script>
+</body>
+</html>

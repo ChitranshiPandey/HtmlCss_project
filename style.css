@@ -1,0 +1,527 @@
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff8f0;
+  color: #2c2c2c;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+h1, h2, h3 {
+    font-size: larger;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.signature{
+   text-align: center;
+  padding: 20px;
+  font-size: 2.5rem;
+  background-color:rgb(156, 15, 15);
+  color: white;
+  margin: 0;
+}
+ 
+
+/* Header */
+header {
+  background-color: rgb(156, 15, 15);
+  color: white;
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+}
+
+
+.brand {
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Navigation */
+nav {
+  background-color: #f3e2d2;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: rgb(156, 15, 15);
+  font-weight: bold;
+  transition: color 0.2;
+}
+
+nav a:hover {
+  color: #970b0b;
+}
+
+.heading2 {
+  background-color: rgb(156, 15, 15);
+  color: #fff8f0;
+  text-align: center;
+  
+}
+ .heading2 h2{
+    
+     font-family: 'Playfair Display', serif;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1601924582975-4cc3015f14b8');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 5px #9a0808;
+}
+
+.hero h2 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+/* Sections */
+.section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  max-width: 700px;
+  margin: auto;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1em;
+}
+
+.menu li {
+  margin: 15px 0;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(156, 15, 15);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.pizzaimg {
+    width:100vw;
+    height: 100vh;
+   
+    
+}
+
+.my-button {
+    background-color:rgb(156, 15, 15);
+    color: aliceblue;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px,20px;
+    transition: 0.3s;
+    border: none;
+
+}
+
+.my-button:hover {
+    background-color: #960909;
+    color: aliceblue;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.box{
+    background: rgb(156, 15, 15);
+    color: white;
+    padding: 30px;
+    border: 2px solid rgb(149, 11, 11);
+    border-radius: 10px;
+    align-items: center;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.box h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.submitbutton {
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.3s;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.submitbutton:hover {
+    background-color: rgb(120, 12, 12);
+    color: #fff8f0;
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+
+.cards{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: rgb(156, 15, 15);
+  color: #333;
+}
+
+
+.menu-title {
+  text-align: center;
+  padding: 0;
+  font-size: 2.5rem;
+  background-color: rgb(156, 15, 15);
+  color: white;
+  margin: 0;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 40px;
+  gap: 30px;
+}
+
+.pizza-card {
+  width: 280px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.pizza-card:hover {
+  transform: translateY(-10px);
+}
+
+.pizza-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: rgb(156, 15, 15);
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 1.1rem;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+
+ul img {
+  width: 500px;
+  height: 500px;
+}
+
+//form 
+
+ body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #fff0e6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .form-box {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+    h2 {
+      color: #e63946;
+      margin-bottom: 10px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-size: 0.9rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      margin-top: 15px;
+      width: 100%;
+      background: #e63946;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #c0262b;
+    }
+
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f0ef;
+}
+
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  background: #1c1c1c;
+  color: white;
+  padding: 40px;
+  gap: 30px;
+  justify-content: center;
+}
+
+.contact-left, .contact-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-left h3 {
+  color: #ff4d4d;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-left p {
+  margin-bottom: 10px;
+}
+
+.contact-left input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.subscribe-btn {
+  margin-top: 10px;
+  background: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.subscribe-btn:hover {
+  background: #e60000;
+}
+
+.contact-right h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #ff4d4d;
+  background: transparent;
+  color: white;
+}
+
+textarea {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #ff4d4d;
+  background: transparent;
+  color: white;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+}
+
+button[type="submit"]:hover {
+  background: #cc0000;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* General form styling */
+form {
+  background-color: #ffebeb; /* Light red background */
+  border: 2px solid #cc0000; /* Red border */
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+/* Label styling */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #cc0000; /* Red labels */
+  font-weight: bold;
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cc0000; /* Red border */
+  border-radius: 5px;
+  background-color: #fff5f5; /* Very light red */
+  outline: none;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #cc0000; /* Darker red on focus */
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+/* Submit button */
+form input[type="submit"] {
+  background-color: #cc0000; /* Red background */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
